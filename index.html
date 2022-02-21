@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BoilePart</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Normalize CSS -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <!-- Primary Styles -->
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  
+  <div class="library">
+    <h2 class="library-title">Library</h2>
+    <div class="add-book">
+      <i class="fa-solid fa-plus"></i>
+      <p class="add-book-title">Add Book</p>
+    </div>
+    <div class="library-wrapper">
+      
+    </div>
+  </div>
+  
+  <div class="modal-inner">
+    <div class="modal-wrapper">
+        <input type="text" id="title" placeholder="title">
+        <input type="text" id="author" placeholder="author">
+        <input type="number" id="pages" required placeholder="pages">
+        <button class="submit">Submit</button>
+    </div> 
+  </div>
+  
+  <div class="modal"></div>
+ 
+  
+  <script src="scripts/app.js"></script>
+</body>
+</html>
